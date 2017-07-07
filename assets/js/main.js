@@ -1,7 +1,11 @@
-/*Ajax que llame a los 800 pokemones*/
+
 /*Ajax que llame cuando haga click*/
 /*Ajax que me busque la img */
-$(document).ready(function(){// obtengo
+
+
+
+/*Ajax que llame a los 800 pokemones*/
+$(document).ready(function(){
     $.ajax({
         url: "http://pokeapi.co/api/v2/pokemon",
         type: "GET",
