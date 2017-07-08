@@ -14,7 +14,7 @@ $(document).ready(function(){
     })
     .done(function(res) {
         console.log("success");
-        for (var i = 1; i < 811; i++) {
-        var pokePic = $("<div class= '.col-lg-3 .col-md-3 .col-s-3 .col-xs-3'> <img src=http://pokeapi.co/media/img/" + i + ".png id=" + i + "></div>");
-            $("div.pokemon").append(pokePic);
+        for (var i = 1; i < 700; i++) {
+        var Mypoke = $("<div class= 'col s4 m4 l4 xl4' href='#modal1'> <img src=http://pokeapi.co/media/img/" + i + ".png id=" + i + "></div>");
+            $("div.misPokemones").append(Mypoke);
         }

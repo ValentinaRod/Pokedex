@@ -1,0 +1,26 @@
+body{
+	background-color: ;
+}
+
+.fondo{
+	color: #68AF21;
+
+}
+
+
+.nav-extended, .nav-wrapper {
+    color: #fff;
+    background: #E54524;
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+}
+
+.pokedex {
+	width: 500px;
+	background-repeat: repeat-y;
+}
+
+.iconpika{
+	width: 50px;
+}
