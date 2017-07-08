@@ -26,4 +26,28 @@ $(document).ready(function(){
         .always(function(){
             console.log('complete');
         });
+    });
+/*Ajax que llame cuando haga click-modal*/
+/*$(document).ready(function(){
+    $.ajax({
+        url: "http://pokeapi.co/api/v2/pokemon",
+        type: "GET",
+        dataType: "json",
+        data: {"limit": "811"},
     })
+    .done(function(res) {
+        console.log("success");
+        $('div.misPokemones').click(function(){
+  		$('#modal1').modal('open');
+ 		return false;
+});
+        }
+
+	})
+        .fail(function(){
+            console.log('error');
+        })
+        .always(function(){
+            console.log('complete');
+        });
+    });*/
