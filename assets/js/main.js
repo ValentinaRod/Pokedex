@@ -18,3 +18,12 @@ $(document).ready(function(){
         var Mypoke = $("<div class= 'col s4 m4 l4 xl4' href='#modal1'> <img src=http://pokeapi.co/media/img/" + i + ".png id=" + i + "></div>");
             $("div.misPokemones").append(Mypoke);
         }
+
+	})
+        .fail(function(){
+            console.log('error');
+        })
+        .always(function(){
+            console.log('complete');
+        });
+    })
