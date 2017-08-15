@@ -19,8 +19,13 @@ body{
 .pokedex {
 	width: 500px;
 	background-repeat: repeat-y;
+	margin-top: 70px;
 }
 
 .iconpika{
 	width: 50px;
+}
+
+.btn-floating{
+	margin: 10px;
 }
